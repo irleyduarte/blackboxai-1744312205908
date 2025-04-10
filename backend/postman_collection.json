@@ -1,0 +1,59 @@
+{
+    "info": {
+        "name": "Virtual Mall Rio API",
+        "description": "Coleção de testes para a API do Virtual Mall Rio",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Registrar Usuário",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\":\"Teste\",\"email\":\"teste@exemplo.com\",\"password\":\"senha123\"}"
+                },
+                "url": {
+                    "raw": "http://localhost:5000/api/users/register",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5000",
+                    "path": [
+                        "api",
+                        "users",
+                        "register"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Login de Usuário",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"email\":\"teste@exemplo.com\",\"password\":\"senha123\"}"
+                },
+                "url": {
+                    "raw": "http://localhost:5000/api/users/login",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5000",
+                    "path": [
+                        "api",
+                        "users",
+                        "login"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
