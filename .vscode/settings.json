@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "javascript.format.enable": true,
+  "typescript.format.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "files.autoSave": "onFocusChange"
+}
